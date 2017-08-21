@@ -7,13 +7,13 @@
 allprojects {
     repositories {
         maven {
-            url "https://raw.githubusercontent.com/leleliu008/maven-repo2/master"
+            url "https://raw.githubusercontent.com/leleliu008/maven-repo/master"
         }
     }
 }
 ```
 2、在子模块中的build.gradle的dependencies中添加依赖：
-<br>
+<br><br>
 爱贝：
 ```
 compile 'com.fpliu:ipay:4.0@aar'
