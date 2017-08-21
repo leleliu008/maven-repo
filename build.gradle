@@ -1,0 +1,31 @@
+//buildscript {
+//    repositories {
+//        jcenter()
+//    }
+//}
+
+//allprojects {
+//    repositories {
+//        jcenter()
+//    }
+//}
+
+apply plugin: 'maven'
+ 
+ext {
+    PUBLISH_GROUP_ID = 'com.fpliu'
+    PUBLISH_ARTIFACT_ID = 'ipay'
+    PUBLISH_VERSION = 4.0
+}
+ 
+uploadArchives {
+    repositories.mavenDeployer {
+        def deployPath = file("/Users/leleliu008/git/maven-repo/repository")
+        repository(url: "file://${deployPath.absolutePath}")
+        pom.project {
+            groupId project.PUBLISH_GROUP_ID
+            artifactId project.PUBLISH_ARTIFACT_ID
+            version project.PUBLISH_VERSION
+        }
+    }
+}
