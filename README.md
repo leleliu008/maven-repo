@@ -14,7 +14,20 @@ allprojects {
 ```
 2、在子模块中的build.gradle的dependencies中添加依赖：
 <br><br>
+如果您使用的是gradle4.1以下的版本，请使用compile关键字，gralde4.1以上的版本使用api或者implementation这两个关键字其中之一。
+<br>
+<br>
 爱贝：
 ```
-compile 'com.fpliu:ipay:4.0@aar'
+api 'com.fpliu:ipay:4.0@aar'
+```
+Camera360：
+```
+api 'com.fpliu:Camera360:1.9.3@aar'
+```
+retrofit(自己修改的，增加了SimpleJSON、SimpleJSONField注解，方便使用)：
+```
+api 'com.fpliu:retrofit:2.4.0'
+api 'com.fpliu:retrofit2-rxjava2-adapter:1.0.0'
+api 'com.fpliu:retrofit-converter-gson:2.0.2'
 ```
