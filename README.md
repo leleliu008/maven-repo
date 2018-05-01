@@ -19,15 +19,9 @@ allprojects {
 <br>
 爱贝：
 ```
-api 'com.fpliu:ipay:4.0@aar'
+api("com.fpliu:ipay:4.0@aar")
 ```
 Camera360：
 ```
-api 'com.fpliu:Camera360:1.9.3@aar'
-```
-retrofit(自己修改的，增加了SimpleJSON、SimpleJSONField注解，方便使用)：
-```
-api 'com.fpliu:retrofit:2.4.0'
-api 'com.fpliu:retrofit2-rxjava2-adapter:1.0.0'
-api 'com.fpliu:retrofit-converter-gson:2.0.2'
+api("com.fpliu:Camera360:1.9.8@aar")
 ```
