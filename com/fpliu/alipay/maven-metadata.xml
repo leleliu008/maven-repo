@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.fpliu</groupId>
+  <artifactId>alipay</artifactId>
+  <version>2018.06.01</version>
+  <versioning>
+    <latest>2018.06.01</latest>
+    <release>2018.06.01</release>
+    <versions>
+      <version>2018.06.01</version>
+    </versions>
+    <lastUpdated>20170817103828</lastUpdated>
+  </versioning>
+</metadata>
