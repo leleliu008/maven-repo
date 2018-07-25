@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.fpliu</groupId>
-  <artifactId>Camera360</artifactId>
+  <artifactId>Camera360-SDK</artifactId>
   <version>1.9.8</version>
   <versioning>
     <latest>1.9.8</latest>
