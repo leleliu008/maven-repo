@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.fpliu</groupId>
-  <artifactId>qndroid-rtc</artifactId>
+  <artifactId>qndroid-rtc-with-preview-callback</artifactId>
   <version>1.0.1</version>
   <versioning>
     <latest>1.0.1</latest>
